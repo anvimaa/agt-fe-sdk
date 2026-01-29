@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      agt-fe-sdk:
+        specifier: ^0.0.1
+        version: 0.0.1
       axios:
         specifier: ^1.13.2
         version: 1.13.2
@@ -67,6 +70,9 @@ packages:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  agt-fe-sdk@0.0.1:
+    resolution: {integrity: sha512-ziMdYWkTQOCaF8iQOu7J9p64WHwceibG7kkqIge7AYxVMBIQWn0D9fOM1/ZBLmJz18Dz1XsbStV6uJvjp5/GEA==}
 
   arg@4.1.3:
     resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==}
@@ -242,6 +248,14 @@ snapshots:
       acorn: 8.15.0
 
   acorn@8.15.0: {}
+
+  agt-fe-sdk@0.0.1:
+    dependencies:
+      axios: 1.13.2
+      jose: 6.1.3
+      uuid: 13.0.0
+    transitivePeerDependencies:
+      - debug
 
   arg@4.1.3: {}
 
